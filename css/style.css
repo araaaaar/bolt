@@ -33,10 +33,10 @@
   border-radius: 1px;
   background-color: #74cfae;
   cursor: pointer;
+  transition:color 0.3s;
 }
 
 .contact-btn:hover, .mail-btn:hover {
-  transition: all 0.3s ease;
   color: #333;
 }
 
@@ -142,11 +142,11 @@
   opacity: 0.7;
   float: left;
   display: block;
+  transition: opacity 0.3s;
 }
 
 .article-img:hover {
   opacity: 1;
-  transition: all 0.3s ease;
 }
 
 .article-img:first-child {
@@ -237,10 +237,10 @@
   color: #74cfae;
   text-align: center;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .nav-icon:hover {
-  transition: all 0.3s ease;
   background-color: #fff;
 }
 
