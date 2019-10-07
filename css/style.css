@@ -2,6 +2,7 @@
 
 .body {
   color: #333;
+  font-family: 'Lato', 'Raleway';
 }
 
 .inner {
@@ -33,7 +34,8 @@
   border-radius: 1px;
   background-color: #74cfae;
   cursor: pointer;
-  transition:color 0.3s;
+  transition: color 0.3s;
+  text-decoration: none;
 }
 
 .contact-btn:hover, .mail-btn:hover {
@@ -70,6 +72,10 @@
   float: right;
 }
 
+.main {
+  margin-top: 70px;
+}
+
 /* main theme */
 .theme {
   padding-top: 250px;
@@ -92,11 +98,6 @@
 /* main section phone */
 .phone {
   padding-top: 50px;
-  width: 100%;
-}
-
-.phone-img {
-  display: inline-block;
 }
 
 .phone-content {
@@ -108,10 +109,22 @@
   text-align: center;
   vertical-align: top;
   box-sizing: border-box;
+  width: 91%;
 }
 
 .phone-title {
   margin-bottom: 35px;
+}
+
+.phone-img {
+  display: inline-block;
+  line-height: 1.0em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.photo-img-inner {
+  vertical-align: bottom;
 }
 
 .phone-text {
@@ -137,8 +150,8 @@
 }
 
 .article-img {
+  margin-top: 80px;
   margin-left: 100px;
-  margin-bottom: 80px;
   opacity: 0.7;
   float: left;
   display: block;
@@ -149,20 +162,18 @@
   opacity: 1;
 }
 
-.article-img:first-child {
+.article-img:nth-child(3n+1) {
+  /* 1.4.7... */
   margin-left: 0;
 }
 
-.article-img:nth-child(3n) {
-  margin-right: 0;
-}
-
-.article-img:nth-child(4n) {
-  margin-left: 0;
+.article-img:nth-child(-n+3) {
+  /* 1.2.3番目 */
+  margin-top: 0;
 }
 
 .article-content {
-  margin-top: 10px;
+  margin-top: 90px;
   text-align: center;
   width: 100%;
   font-size: 0;
@@ -227,6 +238,7 @@
 
 .icons {
   text-align: center;
+  letter-spacing: -0.2em;
 }
 
 .nav-icon {
@@ -238,6 +250,8 @@
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-decoration: none;
+
 }
 
 .nav-icon:hover {
@@ -245,9 +259,12 @@
 }
 
 /* footer  */
-.footer-text {
+.footer {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.footer-text {
   color: #fff;
   text-align: right;
 }
