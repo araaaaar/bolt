@@ -59,8 +59,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
   background-color: #fff;
   z-index: 1;
 }
@@ -89,8 +88,7 @@
 }
 
 .theme {
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding: 250px 0;
   text-align: center;
 }
 
@@ -112,8 +110,7 @@
 }
 
 .phone-img {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5%;
 }
 
 .phone-inner {
@@ -140,8 +137,7 @@
 
 /* main article */
 .article {
-  padding-top: 60px;
-  padding-bottom: 70px; 
+  padding: 60px 0 70px; 
 }
 
 .article-title {
@@ -186,8 +182,7 @@
 
 .article-text {
   display: inline-block;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5%;
   width: 70%;
   color: #4e4e4e;
   line-height: 1.5;
@@ -208,8 +203,7 @@
 
 /* main section skill */
 .skill {
-  padding-top: 70px;
-  padding-bottom: 100px;
+  padding: 70px 0 100px;
   color: #fff;
   background-color: #4e4e4e;
 }
@@ -237,8 +231,7 @@
 
 /* main nav */
 .nav {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 .icons {
@@ -248,8 +241,7 @@
 
 .nav-icon {
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   width: 185px;
   color: #74cfae;
   text-align: center;
@@ -263,8 +255,7 @@
 
 /* footer  */
 .footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .footer-text {
@@ -333,7 +324,7 @@
   }
 
   .mail-btn {
-    width: 15%;
+    width: auto;
   }
 
   /* main section skill */
@@ -356,8 +347,7 @@
 @media screen and (max-width: 767px) {
   /* SP */
   .phone-text, .article-text {
-    padding-right: 4%;
-    padding-left: 4%;
+    padding: 0 4%;
   }
 
     /* header */
@@ -387,8 +377,7 @@
   }
 
   .theme {
-    padding-top: 160px;
-    padding-bottom: 130px;
+    padding: 160px 0 130px;
   }
 
   .theme-inner {
